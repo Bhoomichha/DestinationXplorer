@@ -1,12 +1,40 @@
-
+<!--
+    File: home.component.html
+    Name: Bhoomichha Dangol
+    Student Id: 301270567
+    Date: 2023-06-07
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+
 <head>
-    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <br>
+        <h1>Destination Xplorer!<br>
+
+            Discover the culmination of my hard work, creativity, and dedication in this online portfolio</h1>
+    </header>
+
+    <p id="missionStatement">"Transforming ideas into reality through a combination of design, development, and
+        passion."</p>
+
+    <nav>
+
+        <li><a routerLink="../destination" routerLinkActive="active">Destination</a>&nbsp;&nbsp;</li>
+        <li><a routerLink="../contacts" routerLinkActive="active">Contact</a>&nbsp;&nbsp;</li>
+        <li><a routerLink="../signup" routerLinkActive="active">Signup</a>&nbsp;&nbsp;</li>
+        <li><a routerLink="../review" routerLinkActive="active">Review</a>&nbsp;&nbsp;</li>
+
+
+    </nav>
+    <router-outlet></router-outlet>
 </body>
+
 </html>
